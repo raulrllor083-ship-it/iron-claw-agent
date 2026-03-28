@@ -1,0 +1,17 @@
+[package]
+name = "iron_claw_agent"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+near-sdk = "=5.1.0"
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+overflow-checks = true
+
+[lib]
+crate-type = ["cdylib"]

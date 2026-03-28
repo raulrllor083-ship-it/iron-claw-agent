@@ -1,0 +1,12 @@
+{
+  "name": "iron-claw-agent",
+  "version": "0.1.0",
+  "description": "Autonomous AI Agent for recursive evolution and financial management on NEAR.",
+  "category": "agent",
+  "tags": ["ai", "autonomous", "financial"],
+  "owner_id": "bluedragon111.testnet",
+  "details": {
+    "welcome_message": "Iron Claw Agent is ready for evolution.",
+    "profit_address": "21ce28dc3495d597d5fec2c7013f84aff00b4e55d466628c06fd10f1c891b3c6"
+  }
+}
